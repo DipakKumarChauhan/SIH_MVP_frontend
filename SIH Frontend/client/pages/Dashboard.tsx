@@ -44,14 +44,14 @@ export default function Dashboard() {
   const trains: Train[] = useMemo(
     () => [
       //Dashboard train info from backend to be integrated here...
-      { id: "IC-1203", label: "IC 1203", from: "sealdah", to: "dumdum", progress: 0.35, status: "on-time" },
-      { id: "RE-4821", label: "RE 4821", from: "dumdum", to: "kolkata", progress: 0.5, status: "delayed" },
+      { id: "12345", label: "12345", from: "sealdah", to: "dumdum", progress: 0.35, status: "on-time" },
+      { id: "23456", label: "23456", from: "dumdum", to: "kolkata", progress: 0.5, status: "delayed" },
       // special train parked at Sealdah platform 5 (platformIndex zero-based)
-      { id: "ICE-77", label: "ICE 77", from: "sealdah", to: "sealdah", progress: 0, status: "special", platformIndex: 4 },
-      { id: "RB-615", label: "RB 615", from: "sealdah", to: "naihati", progress: 0.15, status: "on-time" },
-      { id: "REG-900", label: "REG 900", from: "dumdum", to: "kolkata", progress: 0.6, status: "on-time" },
-      { id: "EXP-42", label: "EXP 42", from: "kolkata", to: "naihati", progress: 0.3, status: "delayed" },
-      { id: "LM-11", label: "LM 11", from: "kolkata", to: "sealdah", progress: 0.8, status: "on-time" },
+      { id: "56421", label: "56421", from: "sealdah", to: "sealdah", progress: 0, status: "special", platformIndex: 4 },
+      { id: "32456", label: "32456", from: "sealdah", to: "naihati", progress: 0.15, status: "on-time" },
+      { id: "54213", label: "54213", from: "dumdum", to: "kolkata", progress: 0.6, status: "on-time" },
+      { id: "12645", label: "12645", from: "kolkata", to: "naihati", progress: 0.3, status: "delayed" },
+      { id: "02563", label: "02563", from: "kolkata", to: "sealdah", progress: 0.8, status: "on-time" },
     ],
     [],
   );
