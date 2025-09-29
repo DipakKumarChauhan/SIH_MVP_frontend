@@ -7,16 +7,22 @@ const lanes: { platform: string; slots: Slot[] }[] = [
   { platform: "Sealdah", slots: [
     { id: "t1", train: "12345", time: "12:42", status: "arriving" },
     { id: "t2", train: "23456", time: "12:50", status: "arriving" },
+    { id: "t3", train: "12345", time: "12:42", status: "departed" },
+    { id: "t4", train: "23456", time: "12:50", status: "arriving" },
   ] },
   { platform: "DumDum", slots: [
-    { id: "t3", train: "25698", time: "12:51", status: "arriving" },
-    { id: "t4", train: "12365", time: "12:57", status: "departed" },
+    { id: "t5", train: "25698", time: "12:51", status: "arriving" },
+    { id: "t6", train: "12365", time: "12:57", status: "departed" },
   ] },
   { platform: "Naihati", slots: [
-    { id: "t5", train: "25256", time: "13:02", status: "arriving" as any },
+    { id: "t7", train: "25256", time: "13:02", status: "arriving" as any },
+    { id: "t8", train: "12345", time: "12:42", status: "departed" },
+    { id: "t9", train: "23456", time: "12:50", status: "arriving" },
   ] },
   { platform: "Kolkata", slots: [
     { id: "t6", train: "56234", time: "13:06", status: "cancelled" as any },
+    { id: "t5", train: "25698", time: "12:51", status: "arriving" },
+    { id: "t6", train: "12365", time: "12:57", status: "departed" },
   ] },
 ];
 
