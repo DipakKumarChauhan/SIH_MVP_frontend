@@ -3,19 +3,20 @@ import { useState } from "react";
 type Slot = { id: string; train: string; time: string; status: "arriving" | "departed" | "delayed" };
 
 const lanes: { platform: string; slots: Slot[] }[] = [
+  //Platform data from backend to be integrated here...
   { platform: "Sealdah", slots: [
-    { id: "t1", train: "IC-1203", time: "12:42", status: "arriving" },
-    { id: "t2", train: "ICE-77", time: "12:50", status: "arriving" },
+    { id: "t1", train: "12345", time: "12:42", status: "arriving" },
+    { id: "t2", train: "23456", time: "12:50", status: "arriving" },
   ] },
   { platform: "DumDum", slots: [
-    { id: "t3", train: "REG-900", time: "12:51", status: "arriving" },
-    { id: "t4", train: "RB-615", time: "12:57", status: "departed" },
+    { id: "t3", train: "25698", time: "12:51", status: "arriving" },
+    { id: "t4", train: "12365", time: "12:57", status: "departed" },
   ] },
   { platform: "Naihati", slots: [
-    { id: "t5", train: "EXP-42", time: "13:02", status: "arriving" as any },
+    { id: "t5", train: "25256", time: "13:02", status: "arriving" as any },
   ] },
   { platform: "Kolkata", slots: [
-    { id: "t6", train: "LM-11", time: "13:06", status: "cancelled" as any },
+    { id: "t6", train: "56234", time: "13:06", status: "cancelled" as any },
   ] },
 ];
 

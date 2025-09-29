@@ -43,6 +43,7 @@ export default function Dashboard() {
 // Train status types 
   const trains: Train[] = useMemo(
     () => [
+      //Dashboard train info from backend to be integrated here...
       { id: "IC-1203", label: "IC 1203", from: "sealdah", to: "dumdum", progress: 0.35, status: "on-time" },
       { id: "RE-4821", label: "RE 4821", from: "dumdum", to: "kolkata", progress: 0.5, status: "delayed" },
       // special train parked at Sealdah platform 5 (platformIndex zero-based)

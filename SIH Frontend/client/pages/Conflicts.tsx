@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const conflicts = [
+  //conflict data from backend to be integrated here...
   { id: "c1", trains: ["12345", "23456"], severity: "High", time: "12:50", description: "Platform overlap at Sealdah" },
   { id: "c2", trains: ["32165", "456123"], severity: "Medium", time: "12:57", description: "Track occupation conflict near DumDum" },
   { id: "c3", trains: ["14253"], severity: "Low", time: "13:06", description: "Crew shortage at Naihati" },
